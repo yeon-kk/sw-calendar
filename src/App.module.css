@@ -1,8 +1,9 @@
 .navLayout{
+    width: 900px;
     display: flex;
     flex-direction: row;
     gap :4px;
-    margin: 0 7px
+    margin: auto;
 }
 .navButton {
     width: 300px;
