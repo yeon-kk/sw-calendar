@@ -1,0 +1,14 @@
+.calenderLayout {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 900px;
+    margin: auto;
+    gap: 4px;
+}
+.item {
+    border: 1px solid #e6e6e6;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+    min-height: 100px;
+  }
