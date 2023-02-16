@@ -1,3 +1,11 @@
+.calenderContainerLayout{
+    display: flex;       
+    flex-direction: column;
+    align-items: center;
+}
+.calenderYear{
+    width: fit-content;
+}
 .calenderLayout {
     display: grid;
     grid-template-columns: 300px 300px 300px;
