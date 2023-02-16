@@ -6,6 +6,11 @@ interface academyType {
 export const MONTH = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 export const ACADEMY_LIST: academyType[] = [
   {
+    title: '네이버부스트캠프(AI Tech)',
+    end: '1',
+    url: 'https://boostcamp.connect.or.kr/',
+  },
+  {
     title: 'sw사관학교 정글',
     end: '1',
     url: 'https://swjungle.net/',
