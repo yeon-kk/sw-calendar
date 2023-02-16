@@ -10,11 +10,14 @@ const Calendar = () => {
       <div className={styles.calenderLayout}>
         {MONTH.map((value) => (
           <div className={styles.item}>
-            <h3>{value}월</h3>
+            <h3 className={styles.month}>{value}월</h3>
             {ACADEMY_LIST.map(
               (academy) =>
                 parseInt(academy.end) === value && (
-                  <div>
+                  <div className={styles.rowContainer}>
+                    <div
+                      className={`${styles.pre} ${academy.pre && styles.blue}`}
+                    />
                     <a href={academy.url}>{academy.title}</a>
                   </div>
                 )
