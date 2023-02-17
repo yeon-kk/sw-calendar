@@ -6,6 +6,21 @@
 .calenderYear{
     width: fit-content;
 }
+.explain{
+    display: flex;  
+    flex-direction: row;
+    width: 900px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: left; 
+    font-size: 12px;
+    justify-content: space-between;
+}
+.indexContainer{
+    display: flex;       
+    flex-direction: row;  
+    gap:4px  
+}
 .calenderLayout {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -21,7 +36,7 @@
     padding: 8px;
     font-size: 12px;
     text-align: left;
-    min-height: 100px;
+    min-height: 160px;
     
   }
 .month{
@@ -43,9 +58,6 @@
 .blue{
     background-color: blue;
 }
-.explain{
-    width: 900px;
-    padding-left: 24px;
-    text-align: left; 
-    font-size: 12px;
+.yellow{
+    background-color: yellow;
 }
