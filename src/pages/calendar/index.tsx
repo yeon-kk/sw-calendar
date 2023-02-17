@@ -48,7 +48,9 @@ const Calendar = () => {
                       <div
                         className={`${styles.pre} ${alarm && styles.yellow}`}
                       />
-                      <a href={url}>{title}</a>
+                      <a href={url} target="_blank">
+                        {title}
+                      </a>
                     </div>
                   )
               )
@@ -64,7 +66,9 @@ const Calendar = () => {
                       <div
                         className={`${styles.pre} ${alarm && styles.yellow}`}
                       />
-                      <a href={url}>{title}</a>
+                      <a href={url} target="_blank">
+                        {title}
+                      </a>
                     </div>
                   )
               )
