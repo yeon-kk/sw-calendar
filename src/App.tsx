@@ -21,7 +21,6 @@ function App() {
       index = TIMETABLE_INDEX;
     }
     setClicked(index);
-    console.log(index);
   };
   return (
     <div>
