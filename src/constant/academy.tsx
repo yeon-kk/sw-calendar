@@ -6,6 +6,34 @@ interface academyType {
   alarm: boolean;
 }
 export const MONTH = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+export const MONTH_ACADEMY = [
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+  false,
+  false,
+  false,
+  true,
+  true,
+  true,
+];
+export const MONTH_CREW = [
+  true,
+  true,
+  true,
+  false,
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+];
 export const ACADEMY_LIST: academyType[] = [
   {
     title: '네이버부스트캠프(AI Tech)',
@@ -179,3 +207,12 @@ export const CREW_LIST: academyType[] = [
     alarm: true,
   },
 ];
+
+export const YEAR = 2023;
+export const EXPLAIN = '대략적인 월단위 표시이기 때문에 꼭 확인하셔야 합니다.';
+export const CREW_LABEL = '동아리';
+export const ACADEMY_LABEL = '부트캠프';
+export const PRE_LABEL = '프리 온보딩';
+export const ALARM_LABEL = '사전 알림 신청';
+export const YEAR_LABEL = '년';
+export const MONTH_LABEL = '월';
