@@ -1,12 +1,10 @@
 .navLayout{
-    width: 900px;
     display: flex;
     flex-direction: row;
     gap :4px;
     margin: auto;
 }
 .navButton {
-    width: 300px;
     height: 35px;
     font-family: "Malgun Gothic";
     font-weight: 300;
@@ -21,3 +19,21 @@
     background-color: darkblue;
     color: white;
   }
+
+  @media all and (min-width:1024px) { 
+    .navLayout{
+      width: 900px;
+  }
+  .navButton {
+      width: 300px;
+  }
+}
+
+@media all and (max-width:1023px) {
+  .navLayout{
+    width: 600px;
+}
+.navButton {
+    width: 197px;
+  }
+}
