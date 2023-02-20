@@ -29,11 +29,30 @@
   }
 }
 
-@media all and (max-width:1023px) {
+@media all and (min-width:768px) and (max-width:1023px)
+ {
   .navLayout{
     width: 600px;
 }
 .navButton {
     width: 197px;
+  }
+ }
+
+@media all and (min-width:321px) and (max-width:767px) {
+  .navLayout{
+    width: 100%;
+}
+.navButton {
+    width: 32%;
+  }
+}
+
+@media all and (max-width:320px) {
+  .navLayout{
+    width: 320px;
+}
+.navButton {
+    width: 104px;
   }
 }
