@@ -10,7 +10,7 @@ const LOGO_INDEX = 1;
 const TIMETABLE_INDEX = 2;
 
 function App() {
-  const [clicked, setClicked] = useState(1);
+  const [clicked, setClicked] = useState(0);
   const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     const value = e.currentTarget.name;
     let index = LOGO_INDEX;
