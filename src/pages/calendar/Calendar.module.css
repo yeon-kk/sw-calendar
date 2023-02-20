@@ -83,13 +83,14 @@
     }
 }
 
-
+.monthLabel{
+    background-color: #f2f6fc;
+}
 .item {
     display: flex;
     flex-direction: column;
     gap: 4px;
     border: 1px solid #e6e6e6;
-    padding: 8px;
     font-size: 12px;
     text-align: left;
     min-height: 160px;
@@ -98,7 +99,7 @@
 .month{
     width: fit-content;
     margin: 0 auto;
-    border-bottom: 1px solid #e6e6e6;
+    padding: 4px;
 }
 .rowContainer{
     display: flex;
@@ -117,3 +118,15 @@
 .yellow{
     background-color: yellow;
 }
+
+.monthContents{
+    padding: 0 8px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color : blue;
+    text-decoration: underline;
+  }
