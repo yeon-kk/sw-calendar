@@ -40,8 +40,6 @@
 
     .calenderContainerLayout{
         width: 600px;
-        margin: auto;
-        align-items: center;
     }
 
     .calenderLayout {
@@ -59,12 +57,43 @@
     .calenderContainerLayout{
         width: 600px;
         align-items: center;
-        margin: auto;
     }
     .calenderLayout {
         display: flex;
         flex-direction: column;
         width: 600px;
+        margin: auto;
+        gap: 4px;
+    }
+}
+
+@media all and (mim-width:480px) and (max-width:767px) {
+    .explain{
+        width: 600px;
+    }
+    .calenderContainerLayout{
+        width: 600px;
+    }
+    .calenderLayout {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin: auto;
+        gap: 4px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .explain{
+        width: 480px;
+    }
+    .calenderContainerLayout{
+        width: 480px;
+    }
+    .calenderLayout {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
         margin: auto;
         gap: 4px;
     }
