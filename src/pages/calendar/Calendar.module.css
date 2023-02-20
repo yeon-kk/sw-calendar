@@ -50,50 +50,34 @@
         gap: 4px;
     }
 }
-@media all and (max-width:767px) {
+
+@media all and (min-width:321px) and (max-width:767px) {
     .explain{
-        width: 600px;
+        width: 100%;
     }
     .calenderContainerLayout{
-        width: 600px;
-        align-items: center;
+        width: 100%;
     }
     .calenderLayout {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 100%;
         margin: auto;
         gap: 4px;
     }
 }
 
-@media all and (mim-width:480px) and (max-width:767px) {
+@media all and (max-width:320px) {
     .explain{
-        width: 600px;
+        width: 320px;
     }
     .calenderContainerLayout{
-        width: 600px;
+        width: 320px;
     }
     .calenderLayout {
         display: flex;
         flex-direction: column;
-        width: 600px;
-        margin: auto;
-        gap: 4px;
-    }
-}
-
-@media all and (max-width:480px) {
-    .explain{
-        width: 480px;
-    }
-    .calenderContainerLayout{
-        width: 480px;
-    }
-    .calenderLayout {
-        display: flex;
-        flex-direction: column;
-        width: 480px;
+        width: 320px;
         margin: auto;
         gap: 4px;
     }
